@@ -94,8 +94,16 @@ The recommended strategy for the company is to implement the **CBO-trained model
 This model excels at maximizing fraud detection (**91.8% Recall**), ensuring very few fraudulent cases go unnoticed. However, due to its low precision, it should not be used to automatically block transactions. Instead, transactions it flags as suspicious should be sent to a **second stage of verification** (e.g., a human review team or a secondary, high-precision model) to manage the high rate of false positives and ensure a positive customer experience.
 
 ---
+## How to Run This Project
 
-.
+### Prerequisites
+- Python 3.x
+
+
+### Installation
+1.  Clone the repository:
+    ```bash
+    git clone https://github.com/killollik/DA5401-July-Nov-25-assignment-3-DA25M001.git
+
 ├── DA5401_A3.ipynb       # The main Jupyter Notebook with all the code and analysis
 └── README.md             # This file
-```
